@@ -1,0 +1,27 @@
+# requirements.txt
+# Este archivo lista las dependencias necesarias para el proyecto Chatbot Guardias.
+# Cada línea indica una librería requerida junto con la versión recomendada.
+# Las líneas que inician con '#' son comentarios y serán ignoradas por pip.
+
+# Flask: Framework web ligero para desarrollar la aplicación.
+Flask==2.2.2
+
+# twilio: Cliente oficial para interactuar con la API de Twilio (envío y recepción de mensajes).
+twilio==8.2.0
+
+# pytesseract: Wrapper de Tesseract OCR para extraer texto de imágenes.
+pytesseract==0.3.10
+
+# pdf2image: Librería para convertir archivos PDF a imágenes, facilitando su procesamiento.
+pdf2image==1.16.3
+
+# opencv-python: Biblioteca de OpenCV para el procesamiento y preprocesamiento de imágenes.
+opencv-python==4.7.0.72
+
+# python-dotenv: Permite cargar variables de entorno desde un archivo .env,
+# útil para mantener la configuración sensible (como credenciales) fuera del código fuente.
+python-dotenv==0.21.0
+
+# gunicorn: Servidor WSGI recomendado para ejecutar aplicaciones Flask en producción.
+# Es opcional en un entorno de desarrollo, pero se recomienda para despliegues en la nube.
+gunicorn==20.1.0
