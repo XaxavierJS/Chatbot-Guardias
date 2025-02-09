@@ -169,3 +169,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Evitar subir archivos con secretos
+key.env
